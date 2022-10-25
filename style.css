@@ -1,0 +1,17 @@
+body {
+    font-family: gibson;
+    font-size: 12px;
+    color: #999;
+    background-color: #f2f1f0;
+}
+#login_window {
+    background-color: #fff;
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    border-radius: 8px;
+}
