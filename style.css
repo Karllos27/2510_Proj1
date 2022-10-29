@@ -4,14 +4,49 @@ body {
     color: #999;
     background-color: #f2f1f0;
 }
-#login_window {
-    background-color: #fff;
+#login_page{
     width: 400px;
-    height: 400px;
+    height: 360px;
     position: absolute;
     top: 50%;
     left: 50%;
     margin-right: -50%;
     transform: translate(-50%, -50%);
+}
+
+#logo{
+    margin-left: 20px;
+    margin-bottom: 12px;
+}
+
+#login_window {
+    background-color: #fff;
     border-radius: 8px;
+}
+
+#login_window_form{
+    height: 250px;
+    border-bottom: 1px solid #efefef;
+}
+#login_window_newuser{
+    height: 60px;
+    text-align: center;
+}
+
+#login_window_newuser_text{
+    top: 50%;
+    
+}
+
+a:link, a:visited {
+    color: #999;
+}
+
+a:hover {
+    color: #2accf9;
+}
+
+.color {
+ color: royalblue;
+ cursor: pointer;
 }
