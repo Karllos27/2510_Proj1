@@ -27,23 +27,68 @@ body {
 #login_window_form{
     height: 250px;
     border-bottom: 1px solid #efefef;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
 }
-#login_window_newuser{
-    height: 60px;
-    text-align: center;
+#login_window_form_in *{
+    display: block;
+}
+input[type=button] {
+    background-color: #1989d6;
+    width: 210px;
+    height: 30px;
+    border-radius: 15px;
+    color: #fff;
+    font-family: gibson;
+    font-weight: 500;
+    font-size: 14px;
+    cursor: pointer;
+    text-align: left;
+    border: none;
+    transition: all 0.2s;
+    padding-left: 12px;
 }
 
-#login_window_newuser_text{
-    top: 50%;
+input[type=button]:hover {
+    background-color: #2accf9;
+}
+
+input[type=email], input[type=password] {
+    background-color: #F7F7F7;
+    border: none;
+    width: 192px;
+    height: 24px;
+    margin-bottom: 8px;
+
+    color: currentColor;
+    padding-left: 5px;
+}
+
+#login_window_newuser{
+    height: 60px;
+    display: flex; /*Wlasciwosc pozwalajaca na manipulacje elementami wewnatrz*/
+    align-items: center; /*Wysrodkuje elementy w pionie*/
+    justify-content: center; /*Wysrodkuje elementy w poziomie   */
     
+}
+#login_window_newuser svg {
+    height: 24px;
+    width: 24px;
+    vertical-align: middle;
+    fill: currentColor;
+    padding-bottom: 2px;
+    margin-left: -8px;
+
 }
 
 a:link, a:visited {
     color: #999;
 }
 
-a:hover {
+a:hover{
     color: #2accf9;
+    transition: color .2s;
 }
 
 .color {
