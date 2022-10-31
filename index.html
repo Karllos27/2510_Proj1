@@ -14,11 +14,21 @@
             <div id="login_window">
                 <div id="login_window_form">
                     <div id="login_window_form_in">
-                        zaloguj się za pomocą swojego emaila
+                        <div id="login_window_form_in_text" class="form">
+                            zaloguj się za pomocą swojego emaila
+                        </div>
                         <form>
-                            <input type="email" name="femail" id="femail" placeholder="twój emial">
-                            <input type="password" name="fpassword" id="fpassword" placeholder="hasło">
-                            <input type="button" value="zaloguj się">
+                            <div id="login_window_form_in_email" class="form">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 26 26"><title>icMail</title><path d="M12.89,15.16,5.54,11.64V9.88A2.06,2.06,0,0,1,7.6,7.82H18.17a2.07,2.07,0,0,1,2.07,2.06v1.76ZM7.46,10.43,12.89,13l5.42-2.6V9.88a.13.13,0,0,0-.14-.13H7.6a.14.14,0,0,0-.14.13Z"/><path d="M18.17,18.75H7.6a2.06,2.06,0,0,1-2.06-2.06V13.17H7.46v3.52a.15.15,0,0,0,.14.14H18.17a.14.14,0,0,0,.14-.14V13.17h1.93v3.52A2.07,2.07,0,0,1,18.17,18.75Z"/></svg>
+                                <input type="email" name="femail" id="femail" placeholder="twój email">
+                            </div>
+                            <div id="login_window_form_in_password" class="form">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 26 26"><title>icAsterisk</title><path d="M18.55,7.26l-4.21,5.19v.08l6.44-1.07V15L14.3,14v.12l4.25,5L15.37,21l-2.43-6.1-.08,0L10.38,21l-3-1.85,4.17-5.08V14L5.22,15V11.46l6.27,1.07v-.08L7.37,7.3,10.5,5.48l2.44,6.06H13l2.43-6.06Z"/></svg>
+                                <input type="password" name="fpassword" id="fpassword" placeholder="hasło">
+                            </div>
+                            <div id="login_window_form_in_btn" class="form">
+                                <input type="button" value="zaloguj się">
+                            </div>
                         </form>
                     </div>
                 </div>
