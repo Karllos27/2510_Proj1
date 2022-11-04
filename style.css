@@ -32,11 +32,29 @@ body {
     justify-content: center;
 }
 
+#login_window_form_in_text{
+    margin-bottom: 10px;
+    padding-left: 24px;
+}
+
 .form{
     display:block;
 }
+
+#fields{
+
+}
+
+.iconInForm{
+    margin-right: 5px;
+}
+
 #login_window_form_in_email{
     display:inline
+}
+
+.login_window_form_in_btn{
+    margin-top: 5px;
 }
 
 input[type=button] {
@@ -76,8 +94,10 @@ input[type=email], input[type=password] {
 
 input[type=email]:focus, input[type=password]:focus {
     outline: none;
-    border-bottom: 2px solid #3f51b5;
-    transition: border-bottom 0.2s;;
+    border-bottom: 1px solid #3f51b5; 
+    box-shadow: 0 1px 0 0 #3f51b5;
+    transition: border-bottom 0.2s;
+    transition: box-shadow 0.2s;
 }
 
 
