@@ -32,14 +32,23 @@ body {
     justify-content: center;
 }
 
+#login_window_form_in{
+    padding-top: 50px;
+    padding-right: 16px;
+}
+
 #login_window_form_in_text{
     margin-bottom: 8px;
     padding-left: 24px;
 }
 
 #login_window_form_in_more{
-    margin-top: 8px;
+    margin-top: 2px;
     padding-left: 24px;
+}
+
+#login_window_form_in_more_icDown{
+    padding-left: 2px;
 }
 
 .form{
@@ -48,11 +57,6 @@ body {
 
 .iconInForm{
     margin-right: 5px;
-}
-
-#login_window_form_in{
-    padding-top: 32px;
-    padding-right: 16px;
 }
 
 #login_window_form_in_email{
@@ -136,7 +140,6 @@ svg {
     fill: currentColor;
     padding-bottom: 2px;
     margin-left: -8px;
-
 }
 
 a:link, a:visited {
@@ -146,6 +149,7 @@ a:link, a:visited {
 a:hover{
     color: #2accf9;
     transition: color .2s;
+    cursor: pointer;
 }
 
 .color {
